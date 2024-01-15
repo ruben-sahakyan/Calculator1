@@ -1,0 +1,29 @@
+.one-board {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    justify-content: start;
+    align-items: start;
+    width: 95%;
+    border: 1px solid rgb(139, 139, 139);
+    background: none;
+    background-color: rgba(247, 170, 26, 0.052);
+    margin: 20px auto;
+
+    .one-container {
+        display: flex;
+        flex-wrap: wrap;
+        background: none;
+    }
+
+    .one-item {
+        border: 1px solid rgb(118, 118, 118);
+        background: none;
+        background-color: rgba(0, 128, 0, 0.274);
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+            background-color: rgba(0, 128, 0, 0.395);
+        }
+    }
+}
